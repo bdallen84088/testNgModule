@@ -1,0 +1,21 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "version": "1.0.0",
+    "name": "ng-simple-logger"
+  },
+  "apps": [
+    {
+      "root": "src",
+      "mobile": false,
+      "tsconfig": "tsconfig.json",
+      "prefix": "app"
+    }
+  ],
+  "defaults": {
+    "styleExt": "css",
+    "component": {},
+    "prefixInterfaces": false,
+    "lazyRoutePrefix": "+"
+  }
+}
